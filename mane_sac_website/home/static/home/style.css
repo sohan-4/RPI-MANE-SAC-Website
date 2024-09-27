@@ -1,0 +1,186 @@
+
+body {
+	background-color: white;
+	margin: 0px;
+	padding: 0px;
+}
+
+.contact h3{
+	text-decoration: underline;
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	margin: 0 auto;
+	color:black;
+	align-items: center;
+	font-family: 'Source Sans Pro',Arial,Helvetica Neue,Helvetica,sans-serif;
+}
+
+.member-pic {
+	width: 50%;
+}
+
+.member-text {
+	width: 50%;
+	text-align: center;
+	height: auto;
+	font-family: 'Source Sans Pro', Arial, Helvetica Neue,Helvetica, sans-serif;
+}
+
+.member {
+	display: flex;
+	margin: 0 auto;
+	border: 1px solid #e2231b;
+}
+
+.list-of-members {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.gen-text {
+	font-family: 'Source Sans Pro', Arial, Helvetica Neue,Helvetica, sans-serif;
+	font-size: 16px;
+	color: #3d3c40;
+	text-align: left;
+	display: flex;
+	width: 70%;
+	padding: 0;
+	margin: 0 auto;
+}
+
+.main-header {
+	text-align: center;
+	color: black;
+	font-family: 'Source Sans Pro',Arial,Helvetica Neue,Helvetica,sans-serif;
+	font-size: 30px + 0.25vw;
+}
+
+.events {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 70%;
+    align-items: center;
+	margin: 0 auto;
+}
+
+.event {
+    font-family: 'Source Sans Pro', Arial, Helvetica Neue,Helvetica, sans-serif;
+    font-size: 12px;
+	color: #e2231b;
+    flex: 1;
+    text-align: center;
+}
+
+.events-header{
+	font-size: 18px;
+	letter-spacing: 2px;
+	text-align: center;
+	font-weight: normal;
+	font-family: 'Source Sans Pro',Arial,Helvetica Neue,Helvetica,sans-serif;
+	margin-top: 20px;
+}
+
+.bars{
+	width: 70%;
+	border-top: 1px solid red;
+}
+
+.main-pic {
+	background-color: black;
+}
+
+.main-img {
+	display: block;
+	padding: 0;
+	margin-right: 15%;
+	margin-left: 15%;
+	width: 70%;
+	aspect-ratio: 4 / 1;
+	object-fit: fill;
+}
+
+.main-nav-link:hover {
+	background-color: #e2231b;
+}
+
+.main-nav-link {
+	padding-right: 13px;
+	padding-left: 13px;
+	margin: 0px;
+	font-size: 13px;
+	font-family: 'Source Sans Pro',Arial,Helvetica Neue,Helvetica,sans-serif;
+	color: white;
+	text-decoration: none;
+}
+
+.main-nav-link:hover {
+	background-color: #6b6a6a;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.nav-bar {
+	background-color: #424242;
+	padding-left: 3.5%;
+	margin: 0px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.top-nav-bar {
+	background-color: #900;
+	display:flex;
+	color: white;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	padding-left: 3.5%;
+}
+
+.separators {
+	padding: 0;
+	padding-right: 3px;
+	padding-left: 3px;
+	margin: 0px;
+}
+
+.top-link {
+	color: white;
+	font-size: calc(10px + 0.1vw);
+	font-family: 'Source Sans Pro',Arial,Helvetica Neue,Helvetica,sans-serif;
+	padding: 0px;
+	padding-top: 3px;
+	margin: 0px;
+}
+
+.header {
+	background-color: #e2231b;
+	display: flex;
+	align-items: center;
+	color:white;
+	font-family: 'Source Sans Pro',Arial,Helvetica Neue,Helvetica,sans-serif;
+	font-size: calc(0.3em + 0.7vw);
+	letter-spacing: normal;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 3.5%;
+	padding-right: 0px;
+}
+
+.header-text {
+	flex: 1;
+	padding-left: 0px;
+	padding-right:5px;
+}
+
+.header-rpi-logo {
+	flex: 1;
+	padding-right: 20px;
+}

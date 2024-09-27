@@ -1,0 +1,53 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Student Advisory Council MANE RPI</title>
+        <link rel="stylesheet" href="{% static 'home/style.css' %}">
+        <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+        <main>
+		
+            <div class = "top-nav-bar">
+                <a class = "top-link" href = "https://mane.rpi.edu/">Mechanical, Aerospace, and Nuclear Engineering</a>
+                <p class = "separators"><strong>-</strong></p>
+                <a class = "top-link" href = "https://eng.rpi.edu/">School of Engineering</a>
+                <p class = "separators"><strong>-</strong></p>
+                <a class = "top-link" href = "https://mane.rpi.edu/">Rensselaer Polytechnic Institute</a>
+            </div>
+            
+            <div class = "header">
+                <div>
+                    <h2 class = "header-text">Student Advisory Council for the Mechanical, Aeronautical and Nuclear Engineering Department at Rensselaer Polytechnic Institute</h2> 
+                </div>
+                <div>
+                    <img class = "header-rpi-logo" src="{% static 'home/rpi_logo.png' %}">
+                </div>
+            </div>
+
+            <div class = "nav-bar">
+                <a class = "main-nav-link" href="{% url 'about' %}">About</a>
+                <a class = "main-nav-link" href="{% url 'home'%}">Home</a>
+                <a class = "main-nav-link" href="{% url 'members' %}">Members</a>
+                <a class = "main-nav-link">Forum</a>
+            </div>
+
+            <div class = "contact">
+                <h3>Contact Us</h3>
+                <p>
+                    For more information, please contact us at:
+                </p>
+                <p>
+                    Email: hello@rpi.edu
+                </p>
+                <p>
+                    Phone: 123-456-7890
+                </p>
+            </div>
+        </main>
+    </body>
+</html> 
