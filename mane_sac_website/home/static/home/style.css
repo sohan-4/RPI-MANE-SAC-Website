@@ -5,6 +5,19 @@ body {
 	padding: 0px;
 }
 
+.questions{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.questions div{
+	font-family: 'Source Sans Pro',Arial,Helvetica Neue,Helvetica,sans-serif;
+	text-align: center;
+}
+
 .contact h3{
 	text-decoration: underline;
 }

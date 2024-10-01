@@ -13,3 +13,6 @@ def members(request):
 
 def contact(request):
     return render(request, 'home/contact.html')
+
+def faq(request):
+    return render(request, 'home/faq.html')
