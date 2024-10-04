@@ -1,3 +1,21 @@
+10/4/2024
+Liam Coll
+
+Today we focused on working on and completing the events page. We determined that the events page needs the following:
+1. An area to include an image of the event, a poster, or some related image
+2. A title of the event, which is limited to 30 characters
+3. Description of the event
+4. date and time of event
+5. Loction of Event
+6. Link to event/website/discord/related links
+The ability for members to edit, add and remove events will be important. i also want to implement a system to email all relevant individiduals once an event is posted. The MANE SAC's biggest event is Coffee and Questions, where we run a poll of the MANE student body to gauge their general mental and acedemic wellbeing and progress. Reaching as many MANE students as possible via an email with all relevant information will be extremely important
+Not all information needs to be filled. For example, a link may not be needed, and the event may not have an image. Only the desciption and the title are mandatory to add an event. I am currently working with the department to secure service space, but they have been slow to get back to me. 
+
+
+
+
+
+
 10/1/2024
 Liam Coll
 Over the weekend, I finalized the member information for each member of the council. I still have to aquire an image for each member. This is the following information collected
