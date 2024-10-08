@@ -2,7 +2,7 @@ from django.db import models
 from phonenumber_field.modelfields import PhoneNumberField
 
 # Create your models here.
-class events(models.Model):
+class event(models.Model):
     title = models.TextField(blank=False)
     text = models.TextField(blank=False)
     location = models.TextField(null=True, blank=True)
@@ -13,6 +13,9 @@ class events(models.Model):
 class about(models.Model):
     description = models.TextField(blank=False)
     img = models.ImageField(upload_to='about/', null=True, blank=True)
+
+    class Meta:
+        verbose_name_plural = "About"
 
 class contact(models.Model):
     text = models.TextField(blank=False, default = "For more information, please contact us at:")
