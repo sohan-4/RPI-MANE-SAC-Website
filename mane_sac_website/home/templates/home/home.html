@@ -63,13 +63,62 @@
 		</div>
 		
 		<div class = "events">
-			<div class = "event">
-				<p>MANE Fortnite Contest</p>
-			</div>
-			
-			<div class = "event">
-				<p>MANE Popcorn Night</p>
-			</div>
+
+			{% for event in events %}
+				
+				{% if event.img %}
+
+				<div class = "event">
+					<img src = "{{ event.img.url }}">
+					<div class = "event-text">
+						<h4>{{ event.title }}</h4>
+						<p>{{ event.text }}</p>
+						{% if event.location %}
+							<p>Location: {{ event.location }}</p>
+						{% endif %}
+						{% if event.date_time %}
+							<p>Date and Time: {{ event.date_time }}</p>
+						{% endif %}
+						{% if event.urls %}
+							<a href = "{{ event.urls }}">Click here for more!</a>
+						{% endif %}
+					</div>
+				</div>
+
+					{% if not forloop.last %}
+						<hr class = "bars">
+					{% endif %}
+
+				{% else %}
+
+					<div class = "event">
+						<div class = "event-text">
+							<h4>{{ event.title }}</h4>
+							<p>{{ event.text }}</p>
+							{% if event.location %}
+								<p>Location: {{ event.location }}</p>
+							{% endif %}
+							{% if event.date_time %}
+								<p>Date and Time: {{ event.date_time }}</p>
+							{% endif %}
+							{% if event.urls %}
+								<a href = "{{ event.urls }}">Click here for more!</a>
+							{% endif %}
+						</div>
+					</div>
+
+					{% if not forloop.last %}
+						<hr class = "bars">
+					{% endif %}
+
+				{% endif %}
+
+			{% endfor %}
+		</div>
+
+		<div class="footer">
+			<hr>
+			<p>Student Advisory Council for the Mechanical, Aeronautical and Nuclear Engineering Department at Rensselaer Polytechnic Institute</p>
 		</div>
 		
     </main>

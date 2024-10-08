@@ -5,6 +5,27 @@ body {
 	padding: 0px;
 }
 
+.footer{
+	margin: 0;
+	padding: 0;
+	margin-bottom: 5px;
+}
+
+.footer hr {
+	width: 90%;
+	border-top: 1px solid gray;
+}
+
+.footer p {
+	width: 90%;
+	font-family: 'Source Sans Pro',Arial,Helvetica Neue,Helvetica,sans-serif;
+	font-size: 10px;
+	color: gray;
+	margin: 0 auto;
+	text-align: left;
+	margin-bottom: 5px;
+}
+
 .questions{
 	display: flex;
 	flex-direction: column;
@@ -78,17 +99,33 @@ body {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    width: 70%;
     align-items: center;
 	margin: 0 auto;
+}
+
+.event img {
+	width: 50%;
+	height: auto;
+	max-height: 165px;
+}
+
+.event-text{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-bottom: 5px;
+	max-height: 165px;
 }
 
 .event {
     font-family: 'Source Sans Pro', Arial, Helvetica Neue,Helvetica, sans-serif;
     font-size: 12px;
-	color: #e2231b;
+	color: black;
     flex: 1;
     text-align: center;
+	display: flex;
+	padding: 2px;
+	margin: 2px;
 }
 
 .events-header{

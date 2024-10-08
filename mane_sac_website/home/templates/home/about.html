@@ -55,17 +55,22 @@
         </div>
 
         <div class = "gen-text">
-            {% if data %}
+            {% if info %}
 				<p>
-					{{ data.0.description }}
+					{{ info.0.description }}
 				</p>
-				{% if data.0.img %}
+				{% if info.0.img %}
 					<img>
 				{% endif %}
 			{% else %}
 				<p>An Error has occured. Please contact RPI MANE SAC to report this error.</p>
     		{% endif %}
         </div>
+
+		<div class="footer">
+			<hr>
+			<p>Student Advisory Council for the Mechanical, Aeronautical and Nuclear Engineering Department at Rensselaer Polytechnic Institute</p>
+		</div>
 
     </main>
 </body>

@@ -4,12 +4,16 @@ from .models import *
 # Create your views here.
 
 def home_view(request):
-    return render(request, 'home/home.html')
+    events = event.objects.all()
+    context = {
+        'events': events
+    }
+    return render(request, 'home/home.html', context)
 
 def about_view(request):
-    data = about.objects.all()
+    info = about.objects.all()
     context = {
-        'data': data
+        'info': info
     }
     return render(request, 'home/about.html', context)
 
