@@ -55,13 +55,17 @@
             </div>
 
             <div class = "list-of-members">
+                {% for member in members %}
                 <div class = "member">
-                    <img class = "member-pic" src="{% static 'home/members/member1.jpeg' %}">
+                    <img class = "member-pic" src="{{member.img.url}}">
                     <div class = "member-text">
-                        <h4 class = "member-name">Puck Man</h4>
-                        <p class = "member-desc">Hi, I am a senior, I am a mechanical engineering major. I like cars and hockey.</p>
+                        <h4 class = "member-name">{{member.name}}</h4>
+                        <h5 class = "member-desc">{{member.year}}</h5>
+                        <p class = "member-desc">{{member.description}}</p>
+                        <a class = "member-desc" href="{{member.linkedin}}" target=”_blank”>LinkedIn</a>
                     </div>
                 </div>
+                {% endfor %}
             </div>
 
             <div class="footer">

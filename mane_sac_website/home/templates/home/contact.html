@@ -51,16 +51,19 @@
             </div>
 
             <div class = "contact">
-                <h3>Contact Us</h3>
-                <p>
-                    For more information, please contact us at:
-                </p>
-                <p>
-                    Email: hello@rpi.edu
-                </p>
-                <p>
-                    Phone: 123-456-7890
-                </p>
+                {% if info %}
+                    <p>
+                        {{ info.0.text }}
+                    </p>
+                    <p>
+                        Email: {{ info.0.email }}
+                    </p>
+                    {% if info.0.phone and formatted_number %}
+                    <p>
+                        Phone: {{ formatted_number }}
+                    </p>
+                    {% endif %}
+                {% endif %}
             </div>
 
             <div class="footer">

@@ -18,10 +18,23 @@ def about_view(request):
     return render(request, 'home/about.html', context)
 
 def member_view(request):
-    return render(request, 'home/members.html')
+    members = member.objects.all()
+    context = {
+        'members': members
+    }
+    return render(request, 'home/members.html', context)
 
 def contact_view(request):
-    return render(request, 'home/contact.html')
+    contact_info = contact.objects.all()
+    number = contact_info[0].phone
+    number = str(number)
+    number = number[2:]
+    number = number[:3] + '-' + number[3:6] + '-' + number[6:]
+    context = {
+        'info': contact_info,
+        'formatted_number': number
+    }
+    return render(request, 'home/contact.html', context)
 
 def faq_view(request):
     return render(request, 'home/faq.html')
