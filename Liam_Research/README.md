@@ -1,3 +1,18 @@
+10/18/2024
+Liam Coll
+I have been very sick for the past week and a half, but have continued to make progress on the website. After communication with the MANE department,
+i was informed that a new MANE Departent website was underway. After continuted communication, I was informed the MANE department could not provide server
+space to us to host the website. I have contacted Dr. Turner to see if we could secure hosting space. I also informed the MANE SAC members of this via the following
+message:
+Attention all. I heard back from the MANE dept and it looks like we cannot get our own server space for the site
+They are currently working on a new MANE site, adn said we could integrate our site into their's (like a subsection). i
+am going ot try to contact the CS dept and/or get server space thorugh RCOS, but if we cant, are we amendable to integrating
+with the MANE dept site.
+
+Next week i will update with thoughts from the MANE sac members. I wil continute to open communications between the CS and MANE dept to secure server space. We have
+continued to work on the forum as well to allow to submissions of questions. 
+
+
 10/4/2024
 Liam Coll
 
