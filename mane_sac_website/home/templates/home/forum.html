@@ -1,0 +1,60 @@
+
+{% load static %}
+
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1">
+        <title>MANE SAC Forum</title>
+        <link rel="stylesheet" href="{% static 'home/style.css' %}">
+        <link rel="icon" href="{% static 'home/favicon.ico' %}" type="image/x-icon">
+    </head>
+
+    <body>
+        <div class = "top-nav-bar">
+            <a class = "top-link" href = "https://mane.rpi.edu/">Mechanical, Aerospace, and Nuclear Engineering</a>
+            <p class = "separators"><strong>-</strong></p>
+            <a class = "top-link" href = "https://eng.rpi.edu/">School of Engineering</a>
+            <p class = "separators"><strong>-</strong></p>
+            <a class = "top-link" href = "https://mane.rpi.edu/">Rensselaer Polytechnic Institute</a>
+        </div>
+        
+        <div class = "header">
+            <div>
+                <h2 class = "header-text">Student Advisory Council for the Mechanical, Aeronautical and Nuclear Engineering Department at Rensselaer Polytechnic Institute</h2> 
+            </div>
+            <div>
+                <img class = "header-rpi-logo" src="{% static 'home/rpi_logo.png' %}">
+            </div>
+        </div>
+
+        <div class = "nav-bar">
+            <div>
+                <a href="{% url 'home' %}">Home</a>
+            </div>
+            <div>
+                <a href="{% url 'about' %}">About</a>
+            </div>
+            <div>
+                <a href="{% url 'contact'%}">Contact Us</a>
+            </div>
+            <div>
+                <a href = "{% url 'members' %}">Members</a>
+            </div>
+            <div>
+                <a href="{% url 'faq' %}">FAQ</a>
+            </div>
+            <div class = "current-tab">
+                <a>Forum</a>
+            </div>
+        </div>
+
+        <div class="footer">
+            <hr>
+            <p>Student Advisory Council for the Mechanical, Aeronautical and Nuclear Engineering Department at Rensselaer Polytechnic Institute</p>
+        </div>
+
+    </body>
+
+</html>
