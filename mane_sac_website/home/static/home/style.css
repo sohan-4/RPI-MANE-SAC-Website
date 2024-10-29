@@ -1,36 +1,40 @@
 
 body {
 	background-color: white;
-	margin: 0px;
-	padding: 0px;
-}
-
-.footer{
 	margin: 0;
-	padding: 0;
-	margin-bottom: 5px;
 }
 
-.footer hr {
-	width: 90%;
-	border-top: 1px solid gray;
+#container{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	max-height: 95vh;
+	min-height: 95vh;
 }
 
-.footer p {
-	width: 90%;
-	font-family: 'Source Sans Pro',Arial,Helvetica Neue,Helvetica,sans-serif;
-	font-size: 10px;
+#container2{
+	flex: 0;
+	margin-bottom: auto;  
+}
+
+footer{
+	width: 100%;
+  	max-height: 5vh;
 	color: gray;
-	margin: 0 auto;
-	text-align: left;
-	margin-bottom: 5px;
+	font-family: 'Source Sans Pro',Arial,Helvetica Neue,Helvetica,sans-serif;  
+}
+
+.faq-img {
+	max-width: 300px;
+	max-height: 300px;
+	object-fit: contain;
 }
 
 .questions{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 70%;
+	min-width: 70%;
 	margin: 0 auto;
 }
 
@@ -54,23 +58,27 @@ body {
 }
 
 .member-pic {
-	width: 50%;
+	width: 350px;
+	height: 350px;
+	object-fit: contain;
 }
 
 .member-text {
+	flex: 1;
 	flex-basis: 80%;
-	max-width: 80%;
 	text-align: center;
-	height: auto;
 	font-family: 'Source Sans Pro', Arial, Helvetica Neue,Helvetica, sans-serif;
-	padding-left: 1.5%;
-	padding-right: 1.5%;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 350px;
+	height: 350px;
 }
 
 .member {
 	display: flex;
 	margin: 0 auto;
-	border: 1px solid #e2231b;
+	width: 700px;
+	height: 350px;
 }
 
 .list-of-members {
@@ -79,6 +87,34 @@ body {
 	align-items: center;
 	width: 50%;
 	margin: 0 auto;
+	max-width: 700px;
+}
+
+@media (max-width: 768px) {
+    .member {
+        align-items: center;
+		flex-direction: column;
+		width: 100%;
+		height: auto;
+    }
+    
+    .member-pic {
+        width: 250px;
+        height: 250px;
+		margin-top: 10px;
+    }
+    
+    .member-text {
+		width: 250px;
+		height: 300px;
+        text-align: center;
+		margin-bottom: 10px;
+    }
+
+	.list-of-members {
+		max-width: 100%;
+	}
+
 }
 
 .gen-text {
@@ -244,4 +280,7 @@ body {
 .header-rpi-logo {
 	flex: 1;
 	padding-right: 20px;
+	width: 95%;
+    max-width: 700px;
+
 }

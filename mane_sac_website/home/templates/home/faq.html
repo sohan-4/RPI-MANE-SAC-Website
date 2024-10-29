@@ -7,11 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Advisory Council MANE RPI</title>
     <link rel="stylesheet" href="{% static 'home/style.css' %}">
+    <script src = "{% static 'home/script.js'%}"></script>
     <link rel="icon" href="{% static 'home/favicon.ico' %}" type="image/x-icon">
   </head>
   <body>
         <main>
-		
+        <div id = "container">
+        <div id = "container2">
             <div class = "top-nav-bar">
                 <a class = "top-link" href = "https://mane.rpi.edu/">Mechanical, Aerospace, and Nuclear Engineering</a>
                 <p class = "separators"><strong>-</strong></p>
@@ -48,7 +50,7 @@
                     <a>FAQ</a>
                 </div>
                 <div>
-                    <a>Forum</a>
+                    <a href="{% url 'forum' %}">Forum</a>
                 </div>
             </div>
 
@@ -57,14 +59,20 @@
             </div>
 
             <div class = "questions">
-                <div>
-                    <h5>What is the SAC?</h5>
-                    <p>idk</p>
-                </div>
-                <div>
-                    <h5>What is 1+1=?</h5>
-                    <p>A window</p>
-                </div>
+
+                {% for question in questions %}
+
+                    <hr class = "bars">
+                    <div>
+                        <h5>{{ question.question }}</h5>
+                        <p>{{ question.answer }}</p>
+                        {%if question.img %}
+                            <img class = "faq-img" src ="{% static 'home/test_image.jpg' %}">
+                        {% endif %}
+                    </div>
+
+                {%endfor%}
+
             </div>
 
 

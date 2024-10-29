@@ -37,4 +37,11 @@ def contact_view(request):
     return render(request, 'home/contact.html', context)
 
 def faq_view(request):
-    return render(request, 'home/faq.html')
+    questions = faq.objects.all()
+    context = {
+        'questions': questions
+    }
+    return render(request, 'home/faq.html', context)
+
+def forum_view(request):
+    return render(request, 'home/forum.html')
