@@ -1,27 +1,36 @@
-
-body {
-	background-color: white;
+html, body {
+	height: 100%;
 	margin: 0;
-}
-
-#container{
 	display: flex;
 	flex-direction: column;
-	justify-content: flex-end;
-	max-height: 95vh;
-	min-height: 95vh;
 }
 
-#container2{
-	flex: 0;
-	margin-bottom: auto;  
+#container {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	flex: 1;
 }
 
-footer{
-	width: 100%;
-  	max-height: 5vh;
+#container2 {
+	flex: 1;
+}
+
+footer {
+	height: 3rem;
 	color: gray;
-	font-family: 'Source Sans Pro',Arial,Helvetica Neue,Helvetica,sans-serif;  
+	font-family: 'Source Sans Pro', Arial, Helvetica Neue, Helvetica, sans-serif;
+	text-align: center;
+	margin-top: auto;
+}
+
+.make-post{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 auto;
+	width: 70%;
 }
 
 .faq-img {

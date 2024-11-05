@@ -1,6 +1,4 @@
-
 {% load static %}
-
 <html>
 
     <head>
@@ -12,6 +10,9 @@
     </head>
 
     <body>
+    <main>
+        <div id = "container">
+        <div id = "container2">  
         <div class = "top-nav-bar">
             <a class = "top-link" href = "https://mane.rpi.edu/">Mechanical, Aerospace, and Nuclear Engineering</a>
             <p class = "separators"><strong>-</strong></p>
@@ -50,11 +51,35 @@
             </div>
         </div>
 
-        <div class="footer">
+        <div class = "main-header">
+            <h3>Forum</h3>
+            <p>Make a Post!</p>
+            <form class = "make-post">
+                <input type = "text" name = "title" placeholder = "Give your post a decriptive title!" class="post-title" style="width: 300px;">
+                <br>
+                <textarea name = "content" placeholder = "What's your Concern?" class="post-content" style="width: 300px;height: 100px;"></textarea>
+                <br>
+                <button type = "submit" class="submit-button">Post</button>
+            </form>    
+        </div>
+        <div class = "post_box">
+            {% for post in posts %}
+                <div class = "post">
+                    <h4>{{ post.title }}</h4>
+                    <p>{{ post.content }}</p>
+                    <p>Posted by: {{ post.author }}</p>
+                    <p>Posted on: {{ post.date_posted }}</p>
+                </div>
+            {% endfor %}
+        </div>
+        </div>
+        <footer>
             <hr>
             <p>Student Advisory Council for the Mechanical, Aeronautical and Nuclear Engineering Department at Rensselaer Polytechnic Institute</p>
+        </footer>
         </div>
 
+    </main>
     </body>
 
 </html>
