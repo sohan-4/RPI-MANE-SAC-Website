@@ -46,20 +46,3 @@ def faq_view(request):
 
 def forum_view(request):
     return render(request, 'home/forum.html')
-
-def login_view(request):
-    return render(request, 'home/login.html', {'form': UserCreationForm()})
-
-def register_view(request):
-    form = None
-    if request.POST == 'POST':  
-        form = UserCreationForm()  
-        if form.is_valid():  
-            form.save()  
-        else:  
-            form = UserCreationForm()  
-    
-    context = {  
-        'form':form  
-    }  
-    return render(request, 'register.html', context)  
