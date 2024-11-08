@@ -1,3 +1,23 @@
+10/29/2024
+Liam Coll
+I have continued to communicate with our IT department. I sent an email to ensure that, in the event we decided to integrate with the new MANE 
+department site, their framwork would work with hours. I have also begun collecting links to other councils at RPI for our FAQ. The purpose of this 
+is to mitigate any questions that could be answered on other sites. 
+These are the following links:
+Links
+https://ecse.rpi.edu/people/graduate-student-council ESCE Grad Council
+
+https://ecse.rpi.edu/people/advisory-council ESCE Advisory Council
+
+https://sites.google.com/view/rpistugov/undergraduate-council RPI Undergraduate Council
+
+https://sites.google.com/view/rpistugov/graduate-council?authuser=0 RPI Graduate Council
+
+https://www.instagram.com/rpicsgradsofficial/ CS Grad Council
+We also solved an error in which other computers could not sign in to the admin page. Through the downloading of a package we were able to
+allow signing in on my computer and the adding of my account as a admin. The member page was now up in running, so all of the information of each member
+could now be added. We still need images of each member, and that will be brought up at the next meeting.
+
 10/18/2024
 Liam Coll
 I have been very sick for the past week and a half, but have continued to make progress on the website. After communication with the MANE department,
