@@ -1,5 +1,27 @@
+
+11/8/2024 - Liam coll
+I attended a meeting with the council before the RCOS meeting to discuss changed to the website and new ideas. The forum
+was scrapped for a form that could be filled out to submit question or conscern. This is to mitgate a large influx
+of messages that we hav eto deal with. We also created a new email that all members could have access to. This email would
+also intake the forms that people fill out. The followign classes were created for people to fill out for the form:
+
+Name (ability to be anonymous)
+Date (automatic)
+Email
+Major
+Year
+Description/Concern
+
+I learned python with the help of my partner and was bale to make classes for the form. I was also able to only allow the desciption and conscerns
+section to be mandatory in case someone wants to submit a conscern anonymously. I also compiled a list of everyones image
+and have begun uploading everyones profile on the site. I have also continued to contact our IT dept. but they seem to be thinking our
+site is only dynamic and one page. They have taken a while to get back to me so it may take a while to integrate with the MANE depts
+site. 
+
+
 10/29/2024
 Liam Coll
+<<<<<<< Updated upstream
 I have continued to communicate with our IT department. I sent an email to ensure that, in the event we decided to integrate with the new MANE 
 department site, their framwork would work with hours. I have also begun collecting links to other councils at RPI for our FAQ. The purpose of this 
 is to mitigate any questions that could be answered on other sites. 
@@ -17,6 +39,11 @@ https://www.instagram.com/rpicsgradsofficial/ CS Grad Council
 We also solved an error in which other computers could not sign in to the admin page. Through the downloading of a package we were able to
 allow signing in on my computer and the adding of my account as a admin. The member page was now up in running, so all of the information of each member
 could now be added. We still need images of each member, and that will be brought up at the next meeting.
+=======
+I have continued communication with the representaive from ou
+
+
+>>>>>>> Stashed changes
 
 
 10/18/2024
