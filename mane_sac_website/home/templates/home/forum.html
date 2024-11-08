@@ -6,6 +6,7 @@
         <meta name = "viewport" content = "width=device-width, initial-scale=1">
         <title>MANE SAC Forum</title>
         <link rel="stylesheet" href="{% static 'home/style.css' %}">
+        <script src = "{% static 'home/script.js' %}"></script>
         <link rel="icon" href="{% static 'home/favicon.ico' %}" type="image/x-icon">
     </head>
 
@@ -54,7 +55,8 @@
         <div class = "main-header">
             <h3>Forum</h3>
             <p>Make a Post!</p>
-            <form class = "make-post">
+            <form class = "make-post" action="{% url 'create_post' %}" method="POST" enctype="multipart/form-data">
+                {% csrf_token %}
                 <input type = "text" name = "title" placeholder = "Give your post a decriptive title!" class="post-title" style="width: 300px;">
                 <br>
                 <textarea name = "content" placeholder = "What's your Concern?" class="post-content" style="width: 300px;height: 100px;"></textarea>
