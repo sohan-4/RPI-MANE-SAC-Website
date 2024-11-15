@@ -33,20 +33,9 @@ class faq_admin(admin.ModelAdmin):
     def __str__(self):
         return f"{self.question, self.answer}"
     
-@admin.register(user)
-class user_admin(admin.ModelAdmin):
-    fields = ('posts', 'comments', 'liked_posts', 'liked_comments')
-    def __str__(self):
-        return f"{self.username}"
-    
 @admin.register(post)
 class post_admin(admin.ModelAdmin):
     fields = ('title', 'text', 'img', 'date_time', 'comments', 'likes', 'user', 'links')
     def __str__(self):
         return f"{self.title, self.text}"
     
-@admin.register(comment)
-class comment_admin(admin.ModelAdmin):
-    fields = ('text', 'user', 'date_time', 'likes')
-    def __str__(self):
-        return f"{self.text}"
