@@ -1,3 +1,22 @@
+.links{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.links h4{
+	font-family: 'Source Sans Pro',Arial,Helvetica Neue,Helvetica,sans-serif;
+	color: #900;
+}
+
+.links a{
+	color:#e2231b;
+	text-decoration: none;
+	font-family: 'Source Sans Pro',Arial,Helvetica Neue,Helvetica,sans-serif;
+	padding: 2px;
+	border: 1px solid #e2231b;
+}
+
 html, body {
 	height: 100%;
 	margin: 0;

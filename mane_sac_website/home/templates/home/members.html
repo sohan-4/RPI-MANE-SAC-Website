@@ -60,12 +60,16 @@
                 {% for member in members %}
                 <hr class = "bars">
                 <div class = "member">
-                    <img class = "member-pic" src="{{member.img.url}}">
+                    {% if member.img %}
+                        <img class = "member-pic" src="{{member.img.url}}">
+                    {% endif %}
                     <div class = "member-text">
                         <h4 class = "member-name">{{member.name}}</h4>
                         <h5 class = "member-desc">{{member.year}}</h5>
                         <p class = "member-desc">{{member.description}}</p>
-                        <a class = "member-desc" href="{{member.linkedin}}" target=”_blank”>LinkedIn</a>
+                        {% if member.linkedin %}
+                            <a class = "member-desc" href="{{member.linkedin}}" target=”_blank”>LinkedIn</a>
+                        {% endif %}
                     </div>
                 </div>
                 {% endfor %}

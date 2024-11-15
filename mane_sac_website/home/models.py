@@ -28,7 +28,7 @@ class member(models.Model):
     description = models.TextField(blank=False)
     year = models.TextField(blank=False)
     linkedin = models.URLField(null=True, blank=True)
-    img = models.ImageField(upload_to='members/', null = False, blank = False)
+    img = models.ImageField(upload_to='members/', null = True, blank = True)
     major = models.TextField(blank=False)
 
 class faq(models.Model):
