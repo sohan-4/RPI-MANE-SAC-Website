@@ -1,0 +1,15 @@
+import django.db import models
+
+
+class FAQ(modes.Model):
+    Name= models.TextField(null=True, Blank=True)
+    date = models.DateTimeField(null=True, Blank=True)
+    Email = models.TextField(null=True, Blank=True)
+    Major = models.TextField(null=True, Blank=True)
+    Year = models.TextField(null=True, Blank=True)
+    Description = models.TextField(Blank=False)
+    
+    
+
+    
+    
