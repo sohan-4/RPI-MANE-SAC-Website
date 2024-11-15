@@ -1,3 +1,8 @@
+11/15/2024 (second update)
+We spoke with Dr. Turner today about getting server space. He said he will get back to us. I also spoke with the indivudal I have been
+speaking with from DotCIO, who said that we can host static pages on GitHub. However our page isnt static and we will also need to continue updating it with new members, questions, etc. The MANE Department seems to not want to give us space, so we may end up using Microsofts free server space hosting with an .edu emial. I spoke with the MANE SAC president and he will be able to get me access to the MANE SAC email. I am going to continue to add new members to the member page as well. 
+
+
 11/15/2024 -Liam Coll
 I began working on the FAQ questions and answers after discussing them with the council. The questions and answers area
 as follows
