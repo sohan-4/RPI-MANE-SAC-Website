@@ -1,3 +1,74 @@
+11/15/2024 -Liam Coll
+I began working on the FAQ questions and answers after discussing them with the council. The questions and answers area
+as follows
+1. What is MANE
+Home to three highly-ranked engineering programs in the country, The Department of Mechanical, Aerospace and Nuclear Engineering
+ (MANE) is an unparalleled intellectual powerhouse that is uniquely positioned to solve some of the most challenging problems of 
+ our times and lead the nation and the world in groundbreaking research, innovative education, and service of the highest quality 
+ to all its stakeholders.
+With exponential growth in research, overwhelming student interest and unprecedented recognition of its faculty and
+ students in the national and international arena, this is indeed the most exciting time in the history of MANE.
+
+Degrees Offered
+Aeronautical Engineering (B.S., M.Eng., M.S., Ph.D.)
+Engineering Physics (M.S., Ph.D.)
+Mechanical Engineering (B.S., M.Eng., M.S., Ph.D.)
+Nuclear Engineering (B.S., M.Eng., MS )
+Nuclear Engineering & Science (Ph.D.)
+
+2. What is MANE SAC
+	The Mechanical, Aeronautical, and Nuclear Engineering Department Student Advisory Council consists of graduate and
+     undergraduate students of Rensselaer Polytechnic Institute dedicated to being the voice of the students. We act as
+      a liaison between the MANE Department Head, Dr. Antoinette Maniatty, and MANE Students at RPI. We host events for 
+      students and facilitate a questionnaire at the end of the semester to gauge the academic and mental standing, as 
+      well as concerns of the student body, and voice this to professors and faculty.
+3. What do I do if I have questions about my undergraduate program
+MANE Undergraduate Student Services is located on the second floor of the Jonsson Engineering Center, in room 2012.
+Hours: Monday – Friday, 8:00am - 4:30pm
+You can schedule an appointment with Kate online!
+
+
+Thomas Haley
+Director of Student Services
+tomhaley@aol.com
+Kate Stockton
+Sr. Student Services Administrator
+stockk@rpi.edu
+
+
+Julie Schatz
+Administrative Specialist
+schatj4@rpi.edu 
+
+
+4. What do I do if I have questions about my graduate program
+	MANE Graduate Student Services are located on the 2nd floor of the Jonsson Engineering Center, Room 2002.
+	Contact Beth Ann Macey, Sr. Student Administrator at maceyb2@rpi.edu
+5. How do i know who my advisor is?
+At Rensselaer, you will have a couple of different advisors. This summer, your advising hub representative will 
+reach out to you with information on how to select your first semester classes via your Rensselaer email by June 
+24th. Later in your Rensselaer journey, you will also have a faculty advisor to work with. To get started, please 
+visit our Advising and Registration page found here.    
+https://success.studentlife.rpi.edu/new-students/first-year-advising-and-registration 
+
+6. What do I do if I have questions, concerns, or voice my opinion about a course or professor?
+		You can use our form submission, voice your concerns through the mid or end semester reviews,
+         or come to our end-of-semester coffee and questions
+
+7. Where can I see MANE events?
+At https://mane.rpi.edu/news , you cna view events and news pertaining to the MANE Department. 
+
+8. How many credits do I need to be a full time studnet
+Full time status is 12 credits or typically 3 classes. Most first-year students will be registering for 16-17 
+credits which will align them to graduate in 4 years, or 5 for architecture majors.  
+
+9. When is class registration?
+Class registration will occur between July 10-16.  Your time ticket is in the Student Information System (SIS) and 
+you will register through SIS. This time ticket tells you what date and time you can register for classes during the advising period.  
+
+
+
+
 
 11/8/2024 - Liam coll
 I attended a meeting with the council before the RCOS meeting to discuss changed to the website and new ideas. The forum
