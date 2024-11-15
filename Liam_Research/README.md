@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 10/29/2024
 Liam Coll
 I have continued to communicate with our IT department. I sent an email to ensure that, in the event we decided to integrate with the new MANE 
@@ -17,6 +18,23 @@ https://www.instagram.com/rpicsgradsofficial/ CS Grad Council
 We also solved an error in which other computers could not sign in to the admin page. Through the downloading of a package we were able to
 allow signing in on my computer and the adding of my account as a admin. The member page was now up in running, so all of the information of each member
 could now be added. We still need images of each member, and that will be brought up at the next meeting.
+=======
+11/29- Liam Coll - 
+I attended a MANE SAC meeting today where questions regarding the website were brought to the council were discusses. We are developing an email to serve as a universal admin that any member can access. We also decided that the Forum would be scrapped in place of a form that someone could submit questions and conscerns. I ahve also ocntinued conversation with the IT dept, who seem to want to integrate our sites, but are taking a while to respond. This is the following classes soeone can fill out to submit:
+Name (ability to be anonymous)
+Date (automatic)
+Email
+Major
+Year
+
+Description/Concern
+
+With only desicption/conscern being mandatory so someone can submit a conscern anonymously. I have been learning Python and have devleoped these classes so that only the desiption is mandatory. I have finished compiling an image of everyone from their Linkeding Profile and have begun uploading images and desciptions of each member on the member page.
+
+
+
+10/29
+>>>>>>> Stashed changes
 
 10/18/2024
 Liam Coll
