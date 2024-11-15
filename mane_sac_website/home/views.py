@@ -1,6 +1,7 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from .models import *
 from django.contrib.auth.forms import UserCreationForm 
+import datetime
 
 # Create your views here.
 
@@ -45,4 +46,20 @@ def faq_view(request):
     return render(request, 'home/faq.html', context)
 
 def forum_view(request):
+    posts = post.objects.all()
+    context = {
+        'posts': post
+    }
     return render(request, 'home/forum.html')
+
+def create_post(request):
+    if request.method == 'POST':
+        title = request.POST.get('title')
+        text = request.POST.get('text')
+        img = request.FILES.get('img')
+        date_time = datetime.datetime.now()
+
+        post = post.objects.create(title=title, text=text, img=img, date_time=date_time)
+        post.save()
+        print("hi", post)
+        return redirect('forum_view')
