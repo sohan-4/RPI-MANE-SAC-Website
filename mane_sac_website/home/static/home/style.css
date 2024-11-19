@@ -25,14 +25,9 @@ html, body {
 }
 
 #container {
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
-	flex: 1;
-}
-
-#container2 {
-	flex: 1;
+	min-height: 100%;
+  	display: grid;
+  	grid-template-rows: auto 1fr auto;
 }
 
 footer {

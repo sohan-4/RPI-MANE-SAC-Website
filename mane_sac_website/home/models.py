@@ -21,7 +21,6 @@ class about(models.Model):
 class contact(models.Model):
     text = models.TextField(blank=False, default = "For more information, please contact us at:")
     email = models.EmailField(blank=False)
-    phone = models.CharField(max_length=10, blank=False)
 
 class member(models.Model):
     name = models.TextField(blank=False)
@@ -42,9 +41,9 @@ class email_list(models.Model):
     class Meta:
         verbose_name_plural = "Email List"
 
-class post(models.Model):
+class question(models.Model):
     text = models.TextField(blank=False, null=False)
-    img = models.ImageField(upload_to='posts/', null=True, blank=True)
+    img = models.ImageField(upload_to='questions/', null=True, blank=True)
     date_time = models.DateTimeField(auto_now_add=True)
     major = models.TextField(blank=True)
     year = models.TextField(blank=True)

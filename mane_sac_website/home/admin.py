@@ -17,13 +17,13 @@ class events_admin(admin.ModelAdmin):
     
 @admin.register(contact)
 class contact_admin(admin.ModelAdmin):
-    fields = ('text', 'email', 'phone')
+    fields = ('text', 'email')
     def __str__(self):
         return f"{self.text, self.email}"
     
 @admin.register(member)
 class member_admin(admin.ModelAdmin):
-    fields = ('name', 'description', 'year', 'linkedin', 'img')
+    fields = ('name', 'description', 'year', 'linkedin', 'img', 'major')
     def __str__(self):
         return f"{self.name, self.description, self.year}"
     
@@ -33,7 +33,7 @@ class faq_admin(admin.ModelAdmin):
     def __str__(self):
         return f"{self.question, self.answer}"
     
-@admin.register(post)
+@admin.register(question)
 class post_admin(admin.ModelAdmin):
     fields = ('title', 'text', 'img', 'date_time', 'comments', 'likes', 'user', 'links')
     def __str__(self):
