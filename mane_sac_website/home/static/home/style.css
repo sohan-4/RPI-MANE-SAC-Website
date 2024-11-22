@@ -1,3 +1,12 @@
+
+.under-dev{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	font-family: 'Source Sans Pro',Arial,Helvetica Neue,Helvetica,sans-serif;
+}
+
 .links{
 	display: flex;
 	flex-direction: column;
