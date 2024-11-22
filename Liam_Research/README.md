@@ -1,6 +1,103 @@
-<<<<<<< Updated upstream
+11/15/2024 (second update)
+We spoke with Dr. Turner today about getting server space. He said he will get back to us. I also spoke with the indivudal I have been
+speaking with from DotCIO, who said that we can host static pages on GitHub. However our page isnt static and we will also need to continue updating it with new members, questions, etc. The MANE Department seems to not want to give us space, so we may end up using Microsofts free server space hosting with an .edu emial. I spoke with the MANE SAC president and he will be able to get me access to the MANE SAC email. I am going to continue to add new members to the member page as well. 
+
+
+11/15/2024 -Liam Coll
+I began working on the FAQ questions and answers after discussing them with the council. The questions and answers area
+as follows
+1. What is MANE
+Home to three highly-ranked engineering programs in the country, The Department of Mechanical, Aerospace and Nuclear Engineering
+ (MANE) is an unparalleled intellectual powerhouse that is uniquely positioned to solve some of the most challenging problems of 
+ our times and lead the nation and the world in groundbreaking research, innovative education, and service of the highest quality 
+ to all its stakeholders.
+With exponential growth in research, overwhelming student interest and unprecedented recognition of its faculty and
+ students in the national and international arena, this is indeed the most exciting time in the history of MANE.
+
+Degrees Offered
+Aeronautical Engineering (B.S., M.Eng., M.S., Ph.D.)
+Engineering Physics (M.S., Ph.D.)
+Mechanical Engineering (B.S., M.Eng., M.S., Ph.D.)
+Nuclear Engineering (B.S., M.Eng., MS )
+Nuclear Engineering & Science (Ph.D.)
+
+2. What is MANE SAC
+	The Mechanical, Aeronautical, and Nuclear Engineering Department Student Advisory Council consists of graduate and
+     undergraduate students of Rensselaer Polytechnic Institute dedicated to being the voice of the students. We act as
+      a liaison between the MANE Department Head, Dr. Antoinette Maniatty, and MANE Students at RPI. We host events for 
+      students and facilitate a questionnaire at the end of the semester to gauge the academic and mental standing, as 
+      well as concerns of the student body, and voice this to professors and faculty.
+3. What do I do if I have questions about my undergraduate program
+MANE Undergraduate Student Services is located on the second floor of the Jonsson Engineering Center, in room 2012.
+Hours: Monday – Friday, 8:00am - 4:30pm
+You can schedule an appointment with Kate online!
+
+
+Thomas Haley
+Director of Student Services
+tomhaley@aol.com
+Kate Stockton
+Sr. Student Services Administrator
+stockk@rpi.edu
+
+
+Julie Schatz
+Administrative Specialist
+schatj4@rpi.edu 
+
+
+4. What do I do if I have questions about my graduate program
+	MANE Graduate Student Services are located on the 2nd floor of the Jonsson Engineering Center, Room 2002.
+	Contact Beth Ann Macey, Sr. Student Administrator at maceyb2@rpi.edu
+5. How do i know who my advisor is?
+At Rensselaer, you will have a couple of different advisors. This summer, your advising hub representative will 
+reach out to you with information on how to select your first semester classes via your Rensselaer email by June 
+24th. Later in your Rensselaer journey, you will also have a faculty advisor to work with. To get started, please 
+visit our Advising and Registration page found here.    
+https://success.studentlife.rpi.edu/new-students/first-year-advising-and-registration 
+
+6. What do I do if I have questions, concerns, or voice my opinion about a course or professor?
+		You can use our form submission, voice your concerns through the mid or end semester reviews,
+         or come to our end-of-semester coffee and questions
+
+7. Where can I see MANE events?
+At https://mane.rpi.edu/news , you cna view events and news pertaining to the MANE Department. 
+
+8. How many credits do I need to be a full time studnet
+Full time status is 12 credits or typically 3 classes. Most first-year students will be registering for 16-17 
+credits which will align them to graduate in 4 years, or 5 for architecture majors.  
+
+9. When is class registration?
+Class registration will occur between July 10-16.  Your time ticket is in the Student Information System (SIS) and 
+you will register through SIS. This time ticket tells you what date and time you can register for classes during the advising period.  
+
+
+
+
+
+11/8/2024 - Liam coll
+I attended a meeting with the council before the RCOS meeting to discuss changed to the website and new ideas. The forum
+was scrapped for a form that could be filled out to submit question or conscern. This is to mitgate a large influx
+of messages that we hav eto deal with. We also created a new email that all members could have access to. This email would
+also intake the forms that people fill out. The followign classes were created for people to fill out for the form:
+
+Name (ability to be anonymous)
+Date (automatic)
+Email
+Major
+Year
+Description/Concern
+
+I learned python with the help of my partner and was bale to make classes for the form. I was also able to only allow the desciption and conscerns
+section to be mandatory in case someone wants to submit a conscern anonymously. I also compiled a list of everyones image
+and have begun uploading everyones profile on the site. I have also continued to contact our IT dept. but they seem to be thinking our
+site is only dynamic and one page. They have taken a while to get back to me so it may take a while to integrate with the MANE depts
+site. 
+
+
 10/29/2024
 Liam Coll
+<<<<<<< Updated upstream
 I have continued to communicate with our IT department. I sent an email to ensure that, in the event we decided to integrate with the new MANE 
 department site, their framwork would work with hours. I have also begun collecting links to other councils at RPI for our FAQ. The purpose of this 
 is to mitigate any questions that could be answered on other sites. 
@@ -18,23 +115,11 @@ https://www.instagram.com/rpicsgradsofficial/ CS Grad Council
 We also solved an error in which other computers could not sign in to the admin page. Through the downloading of a package we were able to
 allow signing in on my computer and the adding of my account as a admin. The member page was now up in running, so all of the information of each member
 could now be added. We still need images of each member, and that will be brought up at the next meeting.
-=======
-11/29- Liam Coll - 
-I attended a MANE SAC meeting today where questions regarding the website were brought to the council were discusses. We are developing an email to serve as a universal admin that any member can access. We also decided that the Forum would be scrapped in place of a form that someone could submit questions and conscerns. I ahve also ocntinued conversation with the IT dept, who seem to want to integrate our sites, but are taking a while to respond. This is the following classes soeone can fill out to submit:
-Name (ability to be anonymous)
-Date (automatic)
-Email
-Major
-Year
-
-Description/Concern
-
-With only desicption/conscern being mandatory so someone can submit a conscern anonymously. I have been learning Python and have devleoped these classes so that only the desiption is mandatory. I have finished compiling an image of everyone from their Linkeding Profile and have begun uploading images and desciptions of each member on the member page.
 
 
 
-10/29
 >>>>>>> Stashed changes
+
 
 10/18/2024
 Liam Coll
