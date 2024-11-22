@@ -1,3 +1,12 @@
+11/22/2024 Update Liam Coll
+Today we are working on the poster, but have made progress this week with the website. I have been learning some coding as well,
+being able to code a good portion of the member and FAQ page. I was able to hard code all of the member names, major, year, description,
+and linkedin linked. We will also need to manually add it in via the admin page, as well as finish getting the images.
+The website is almost fully functional. We made a temporary gmail for the forum page to recieve requests and will evnautally connect it
+to the official rpi.edu outlook email for the MANE SAC.
+
+
+
 11/15/2024 (second update)
 We spoke with Dr. Turner today about getting server space. He said he will get back to us. I also spoke with the indivudal I have been
 speaking with from DotCIO, who said that we can host static pages on GitHub. However our page isnt static and we will also need to continue updating it with new members, questions, etc. The MANE Department seems to not want to give us space, so we may end up using Microsofts free server space hosting with an .edu emial. I spoke with the MANE SAC president and he will be able to get me access to the MANE SAC email. I am going to continue to add new members to the member page as well. 
