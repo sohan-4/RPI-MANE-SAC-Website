@@ -11,6 +11,9 @@ class event(models.Model):
     urls = models.URLField(null=True, blank=True)
     img = models.ImageField(upload_to='events/', null=True, blank=True)
 
+    def __str__(self):
+        return f"{self.title}"
+
 class about(models.Model):
     description = models.TextField(blank=False)
     img = models.ImageField(upload_to='about/', null=True, blank=True)
@@ -18,10 +21,15 @@ class about(models.Model):
     class Meta:
         verbose_name_plural = "About"
 
+    def __str__(self):
+        return f"About"
+
 class contact(models.Model):
     text = models.TextField(blank=False, default = "For more information, please contact us at:")
     email = models.EmailField(blank=False)
-    phone = models.CharField(max_length=10, blank=False)
+
+    def __str__(self):
+        return f"Contact"
 
 class member(models.Model):
     name = models.TextField(blank=False)
@@ -31,10 +39,16 @@ class member(models.Model):
     img = models.ImageField(upload_to='members/', null = True, blank = True)
     major = models.TextField(blank=False)
 
+    def __str__(self):
+        return f"{self.name}"
+
 class faq(models.Model):
     question = models.TextField(blank=False)
     answer = models.TextField(blank=False)
     img = models.ImageField(upload_to='faq/', null = True, blank = True)
+
+    def __str__(self):
+        return f"{self.question}"
 
 class email_list(models.Model):
     email = models.EmailField(blank=False)
@@ -42,11 +56,13 @@ class email_list(models.Model):
     class Meta:
         verbose_name_plural = "Email List"
 
-class post(models.Model):
+class question(models.Model):
     text = models.TextField(blank=False, null=False)
-    img = models.ImageField(upload_to='posts/', null=True, blank=True)
-    date_time = models.DateTimeField(auto_now_add=True)
+    img = models.ImageField(upload_to='questions/', null=True, blank=True)
+    date_time = models.DateTimeField(auto_now_add=False, null=True, blank=True)
     major = models.TextField(blank=True)
     year = models.TextField(blank=True)
     email = models.EmailField(blank=True)
 
+    def __str__(self):
+        return f"{self.text}"

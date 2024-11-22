@@ -11,9 +11,8 @@
         <link rel="icon" href="{% static 'home/favicon.ico' %}" type="image/x-icon">
     </head>
     <body>
-        <main>
         <div id = "container">
-        <div id = "container2">
+        <main>
             <div class = "top-nav-bar">
                 <a class = "top-link" href = "https://mane.rpi.edu/">Mechanical, Aerospace, and Nuclear Engineering</a>
                 <p class = "separators"><strong>-</strong></p>
@@ -52,6 +51,10 @@
                 </div>
             </div>
 
+            <div class = "main-header">
+                <h2>Contact Us</h2>
+            </div>
+
             <div class = "contact">
                 {% if info %}
                     <p>
@@ -60,20 +63,16 @@
                     <p>
                         Email: {{ info.0.email }}
                     </p>
-                    {% if info.0.phone and formatted_number %}
-                    <p>
-                        Phone: {{ formatted_number }}
-                    </p>
-                    {% endif %}
+                {% else %}
+                    <p>An Error has occured. Please contact RPI MANE SAC to report this error.</p>
                 {% endif %}
             </div>
 
-        </div>
+        </main>
         <footer>
             <hr>
             <p>Student Advisory Council for the Mechanical, Aeronautical and Nuclear Engineering Department at Rensselaer Polytechnic Institute</p>
         </footer>
         </div>
-        </main>
     </body>
 </html> 
