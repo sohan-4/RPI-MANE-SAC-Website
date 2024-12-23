@@ -57,12 +57,13 @@ class email_list(models.Model):
         verbose_name_plural = "Email List"
 
 class question(models.Model):
+    title = models.TextField(blank=False, null=False)
     text = models.TextField(blank=False, null=False)
     img = models.ImageField(upload_to='questions/', null=True, blank=True)
     date_time = models.DateTimeField(auto_now_add=False, null=True, blank=True)
     major = models.TextField(blank=True)
     year = models.TextField(blank=True)
-    email = models.EmailField(blank=True)
+    email = models.EmailField(blank=False, null=False)
 
     def __str__(self):
         return f"{self.text}"
