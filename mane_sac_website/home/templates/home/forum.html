@@ -51,27 +51,37 @@
             </div>
         </div>
 
+        <!--
+
         <div class="Under-dev">
             <h2>Under Development</h2>
             <p>Sorry, this page is currently under development. Please check back later!</p>
         </div>
 
-        <!--
+        -->
 
         <div class = "main-header">
             <h3>Forum</h3>
-            <p>Make a Post!</p>
-            <form class = "make-post" action="{% url 'create_post' %}" method="POST" enctype="multipart/form-data">
+            <p>Ask a question!</p>
+            <form class = "ask-question" action="{% url 'create' %}" method="POST" enctype="multipart/form-data">
                 {% csrf_token %}
-                <input type = "text" name = "title" placeholder = "Give your post a decriptive title!" class="post-title" style="width: 300px;">
+                <input type = "text" name = "name" placeholder = "Name (optional)" class="post-name" style="width: 300px;">
                 <br>
-                <textarea name = "content" placeholder = "What's your Concern?" class="post-content" style="width: 300px;height: 100px;"></textarea>
+                <input type = "text" name = "title" placeholder = "What's your concern?" class="post-title" style="width: 300px;">
                 <br>
+                <textarea name = "content" placeholder = "Give us a few more details about your concern!" class="post-content" style="width: 300px;height: 100px;"></textarea>
+                <br>
+                <label for=""img>Upload an Image (optional):</label>
+                <input type = "file" name = "img" class="post-img">
+                <br>
+                <input type = "email" name = "email" placeholder = "Your Email" class="post-email" style="width: 300px;">
+                <br>
+                <input type = "major" name = "major" placeholder = "Major (optional)" class="post-major" style="width: 300px;">
+                <br>
+                <input type = "year" name = "year" placeholder = "Year (optional)" class="post-year" style="width: 300px;">
                 <button type = "submit" class="submit-button">Post</button>
             </form>    
         </div>
-
-        -->
 
         </main>
 
