@@ -45,7 +45,6 @@ def forum_view(request):
 
 def create(request):
     if request.method == 'POST':
-        print(request.POST)
         title = request.POST.get('title')
         text = request.POST.get('content')
         img = request.FILES.get('img')
@@ -85,6 +84,7 @@ def create(request):
         )
 
         if img:
+            img.seek(0)
             email_message.attach(img.name, img.read(), img.content_type)
 
         email_message.send(fail_silently=False)
